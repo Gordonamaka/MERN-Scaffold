@@ -1,0 +1,22 @@
+{
+  "name": "mern-scaffold",
+  "version": "1.0.0",
+  "description": "Dockerized MERN Scaffold",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gordonamaka/MERN-Scaffold.git"
+  },
+  "author": "Gordon Amobi Maka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gordonamaka/MERN-Scaffold/issues"
+  },
+  "homepage": "https://github.com/Gordonamaka/MERN-Scaffold#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
