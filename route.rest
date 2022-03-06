@@ -1,6 +1,29 @@
 # Testing for routes using Rest Client Extension
 GET http://localhost:3001/test
 
+### Take an id from the previous request to check
+
+GET http://localhost:3001/test/62252d0a67d55dd072fc996b
+
+### 
+
+POST http://localhost:3001/test
+Content-Type: application/json
+
+{
+  "name": "Amazing coder",
+  "testData": "This is Test Data."
+}
+
 ###
 
-GET http://localhost:3001/test/25
+DELETE http://localhost:3001/test/62252d0a67d55dd072fc996b
+
+###
+
+PATCH http://localhost:3001/test/622531d6e1c258efc3bb8957
+Content-Type: application/json
+
+{
+  "name": "New Patched Name"
+}
